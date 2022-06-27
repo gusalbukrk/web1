@@ -4,7 +4,7 @@ import StylelintPlugin from 'stylelint-webpack-plugin';
 
 export default {
   entry: {
-    main: './src/index.tsx',
+    main: './src/index.js',
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],

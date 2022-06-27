@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Rubik, sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header section:nth-child(1) {
+  align-items: center;
+  background-color: #121212;
+  display: flex;
+  height: 40px;
+}
+
+header section:nth-child(1) a {
+  color: white;
+  font-size: 14px;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+header section:nth-child(2) {
+  align-items: center;
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+  height: 100px;
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+
+#main_image {
+  /* background-color: pink; */
+  background-image: url('https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80');
+  height: calc(100vh - 100px);
+}
